@@ -19,6 +19,15 @@ body{
     cursor: pointer;
 }
 
+/*COLUMNS*/
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+}
+
 /*HEADER*/
 .header-container{
     margin: 0 auto;
@@ -39,4 +48,52 @@ body{
 li{
     display: inline-block;
     padding: 0 20px;
+}
+
+/*HERO*/
+.hero-container{
+    background-color: rgb(184, 216, 249);
+    height: 550px;
+}
+
+.hero-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero-section h1{
+    font-size: 45px;
+    font-weight: 800;
+    padding: 30px;
+}
+
+.hero-col{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0 30px;
+}
+
+.hero-col > *{
+    padding: 0 10px;
+}
+
+.col-30 p{
+    padding-bottom: 30px;
+}
+
+.col-30 button{
+    margin-bottom: 30px;
+} 
+
+.col-30 i{
+    font-size: 40px;
+}
+
+.col-70 img{
+    height: 450px;
+    width: 750px;
 }
