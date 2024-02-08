@@ -1,0 +1,42 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+body{
+    font-family: 'Open Sans';
+}
+
+/*BUTTONS*/
+.btn-blue{
+    padding: 8px 14px;
+    background-color: rgb(45, 131, 243);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/*HEADER*/
+.header-container{
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left{
+    display: flex;
+}
+
+.logo-header{
+    height: 20px;
+}
+
+li{
+    display: inline-block;
+    padding: 0 20px;
+}
