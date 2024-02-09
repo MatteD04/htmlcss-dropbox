@@ -60,7 +60,7 @@ li{
 /*HERO*/
 .hero-container{
     background-color: rgb(184, 216, 249);
-    height: 550px;
+    heigh: 550px;
 }
 .hero-section{
     max-width: 1000px;
@@ -71,7 +71,7 @@ li{
 .hero-section h1{
     font-size: 45px;
     font-weight: 800;
-    padding: 30px;
+    padding: 50px 30px 0 30px;
 }
 .hero-col{
     display: flex;
@@ -94,7 +94,12 @@ li{
 }
 .col-70 img{
     height: 450px;
-    width: 750px;
+    max-width: 750px;
+}
+
+.hero-col{
+    position: relative;
+    bottom: -60px;
 }
 
 /*MAIN*/
