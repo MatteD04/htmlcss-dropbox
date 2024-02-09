@@ -40,11 +40,14 @@ body{
 
 /*HEADER*/
 .header-container{
+    background-color: #fff;
     margin: 0 auto;
     padding: 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 .header-left{
     display: flex;
