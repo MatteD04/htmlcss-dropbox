@@ -10,6 +10,14 @@ body{
     font-family: 'Open Sans';
 }
 
+/*TYPOGRAPHY*/
+#bold{
+    font-weight: bold;
+}
+#title-col{
+    font-size: 25px;
+}
+
 /*BUTTONS*/
 .btn-blue{
     padding: 8px 14px;
