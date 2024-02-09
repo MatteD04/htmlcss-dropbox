@@ -60,7 +60,6 @@ li{
 /*HERO*/
 .hero-container{
     background-color: rgb(184, 216, 249);
-    heigh: 550px;
 }
 .hero-section{
     max-width: 1000px;
@@ -93,7 +92,6 @@ li{
     font-size: 40px;
 }
 .col-70 img{
-    height: 450px;
     max-width: 750px;
 }
 
