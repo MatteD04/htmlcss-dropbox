@@ -34,6 +34,9 @@ body{
 .col-30{
     width: 30%;
 }
+.col-33{
+    width: calc(100%/3);
+}
 .col-70{
     width: 70%;
 }
@@ -105,3 +108,18 @@ li{
 }
 
 /*MAIN*/
+.section-1{
+    max-width: 1000px;
+    padding-top: 100px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.section-1 h2{
+    padding-bottom: 40px;
+}
+.btn-main .btn-radio{
+    margin-right: 30px;
+}
+.btn-main{
+    margin-bottom: 40px;
+}
