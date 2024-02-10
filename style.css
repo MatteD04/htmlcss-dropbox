@@ -91,6 +91,13 @@ body{
     border: 2px solid rgb(208, 207, 207);
     min-height: 900px;
 }
+.col-40{
+    width: 40%;
+    padding: 50px 70px 0px 30px;
+}
+.col-60{
+    width: 60%;
+}
 .col-70{
     width: 70%;
 }
@@ -157,7 +164,7 @@ li{
 .col-30 i{
     font-size: 40px;
 }
-.col-70 img{
+.hero-col .col-70 img{
     max-width: 750px;
 }
 
@@ -211,4 +218,20 @@ li{
 }
 #p-info{
     padding-top: 60px;
+}
+
+.section-2{
+    max-width: 1000px;
+    padding-top: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+.section-2 img{
+    width: 100%;
+}
+.col-40 h2{
+    padding-bottom: 12px;
+}
+.col-40 p{
+    padding-bottom: 30px;
 }
