@@ -243,7 +243,6 @@ li{
     max-width: 1000px;
     padding-top: 100px;
     margin: 0 auto;
-    display: flex;
 }
 .section-3 h2{
     font-size: 30px;
@@ -251,7 +250,7 @@ li{
 }
 .row {
     display: flex;
-    flex-wrap: wrap;
+    gap: 6px;
     padding-bottom: 40px;
 }
 
@@ -269,4 +268,14 @@ li{
 }
 .info{
     padding-right: 20px;
+}
+
+.section-4{
+    max-width: 1000px;
+    padding-top: 100px;
+    margin: 0 auto
+}
+.section-4 h2{
+    font-size: 30px;
+    padding-bottom: 50px;
 }
