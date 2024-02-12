@@ -170,7 +170,7 @@ li{
     font-size: 40px;
 }
 .hero-col .col-70 img{
-    max-width: 750px;
+    max-width: 100%;
 }
 
 .hero-col{
@@ -202,6 +202,12 @@ li{
     justify-content: center;
     border-bottom: 2px solid rgb(208, 207, 207);
     padding: 12px 0;
+    gap: 6px;
+}
+.col-33-info li{
+    display: flex;
+    gap: 6px;
+    margin-left: -20px;
 }
 
 .col-100{
@@ -217,6 +223,7 @@ li{
     justify-content: center;
     border-bottom: 2px solid rgb(208, 207, 207);
     padding: 12px 0;
+    gap: 6px;
 }
 .col-100-info p{
     padding-top: 15px;
@@ -285,11 +292,20 @@ li{
 .section-5{
     padding-top: 120px;
     margin: 0 auto;
+    display: flex;
 }
-.Designit{
-    background-color: blueviolet;
-    min-height: 500px;
-    border: 3px dashed black;
+.square{
+    border: 2px solid black;
+    width: calc(100% / 3);
+    height: 33vw;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 50%;
+    width: 50%;
+    border: 1px solid red;
 }
 
 .bg-section-6{
