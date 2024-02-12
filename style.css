@@ -18,6 +18,16 @@ body{
     font-size: 25px;
 }
 
+/*SECTION*/
+.section-large{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /*BUTTONS*/
 .btn-blue{
     padding: 8px 14px;
@@ -43,6 +53,37 @@ body{
     background-color: #fff;
     border: none;
     cursor: pointer;
+}
+
+/*COLUMNS*/
+.col-20{
+    width: 20%;
+}
+.col-30{
+    width: 30%;
+}
+.col-33{
+    width: calc(100%/3);
+    border: 2px solid rgb(208, 207, 207);
+    min-height: 900px;
+}
+.col-33-2{
+    width: calc(100%/3);
+}
+.col-40{
+    width: 40%;
+    padding: 50px 70px 0px 30px;
+}
+.col-60{
+    width: 60%;
+}
+.col-70{
+    width: 70%;
+}
+.col-100{
+    width: 100%;
+    border: 2px solid rgb(208, 207, 207);
+    padding: 20px;
 }
 
 /*COL-33*/
@@ -82,37 +123,6 @@ body{
     color: rgb(45, 131, 243);
 }
 
-/*COLUMNS*/
-.col-20{
-    width: 20%;
-}
-.col-30{
-    width: 30%;
-}
-.col-33{
-    width: calc(100%/3);
-    border: 2px solid rgb(208, 207, 207);
-    min-height: 900px;
-}
-.col-33-2{
-    width: calc(100%/3);
-}
-.col-40{
-    width: 40%;
-    padding: 50px 70px 0px 30px;
-}
-.col-60{
-    width: 60%;
-}
-.col-70{
-    width: 70%;
-}
-.col-100{
-    width: 100%;
-    border: 2px solid rgb(208, 207, 207);
-    padding: 20px;
-}
-
 /*HEADER*/
 header{
     position: sticky;
@@ -131,7 +141,7 @@ header{
     display: flex;
 }
 .logo-header{
-    height: 20px;
+    max-height: 20px;
 }
 li{
     display: inline-block;
@@ -146,11 +156,7 @@ header a{
 .hero-container{
     background-color: rgb(184, 216, 249);
 }
-.hero-section{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.hero-section h1{
+.section-large h1{
     font-size: 45px;
     font-weight: 800;
     padding: 50px 30px 0 0;
@@ -158,7 +164,6 @@ header a{
 .hero-col{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0px;
 }
 .col-30 p{
     padding-bottom: 30px;
@@ -180,9 +185,7 @@ header a{
 
 /*MAIN*/
 .section-1{
-    max-width: 1000px;
     padding-top: 100px;
-    margin: 0 auto;
 }
 .section-1 h2{
     padding-bottom: 50px;
@@ -235,9 +238,7 @@ header a{
 }
 
 .section-2{
-    max-width: 1000px;
     padding-top: 100px;
-    margin: 0 auto;
     display: flex;
 }
 .section-2 img{
@@ -251,9 +252,7 @@ header a{
 }
 
 .section-3{
-    max-width: 1000px;
     padding-top: 100px;
-    margin: 0 auto;
 }
 .section-3 h2{
     font-size: 30px;
@@ -282,9 +281,7 @@ header a{
 }
 
 .section-4{
-    max-width: 1000px;
     padding-top: 100px;
-    margin: 0 auto
 }
 .section-4 h2{
     font-size: 30px;
@@ -314,7 +311,7 @@ header a{
     padding: 30px;
 }
 .info-square img{
-    padding-bottom: 30px 0 20px 0;
+    padding: 30px 0 20px 0;
 }
 .info-square hr{
     width: 20%;
@@ -360,9 +357,7 @@ header a{
     background-color: rgb(184, 216, 249);
 }
 .section-6{
-    max-width: 1000px;
     padding: 100px 0;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -372,9 +367,7 @@ header a{
 }
 
 .section-7{
-    max-width: 1000px;
     padding: 100px 0;
-    margin: 0 auto;
 }
 .section-7 h2{
     font-size: 30px;
@@ -394,10 +387,6 @@ header a{
 footer{
     background-color: black;
     color: #fff;
-}
-.footer-container{
-    max-width: 1200px;
-    margin: 0 auto;
 }
 .foot-col{
     display: flex;
