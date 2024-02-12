@@ -137,6 +137,10 @@ li{
     display: inline-block;
     padding: 0 20px;
 }
+header a{
+    text-decoration: none;
+    color: black;
+}
 
 /*HERO*/
 .hero-container{
@@ -184,8 +188,10 @@ li{
     padding-bottom: 50px;
     font-size: 30px;
 }
-.btn-main button{
+.btn-main{
     margin: 0 30px 50px 0;
+    display: flex;
+    gap: 30px;
 }
 
 .section-options{
@@ -417,7 +423,7 @@ footer{
     width: 15%;
 }
 .language{
-    padding-top: 40px;
+    padding: 40px 0;
     display: flex;
     gap: 8px;
 }
