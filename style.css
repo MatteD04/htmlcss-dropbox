@@ -34,12 +34,12 @@ body{
     cursor: pointer;
 }
 .btn-white{
-    padding: 10px 16px;
+    padding: 8px 16px;
     background-color: #fff;
     cursor: pointer;
 }
 .btn-white-n{
-    padding: 8px 18px;
+    padding: 8px 30px;
     background-color: #fff;
     border: none;
     cursor: pointer;
@@ -295,7 +295,6 @@ li{
     display: flex;
 }
 .square{
-    border: 2px solid black;
     width: calc(100% / 3);
     height: 33vw;
     overflow-y: auto;
@@ -305,11 +304,58 @@ li{
 .box{
     height: 50%;
     width: 50%;
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.info-square{
+    padding: 30px;
+}
+.info-square img{
+    padding-bottom: 30px 0 20px 0;
+}
+.info-square hr{
+    width: 20%;
+}
+.info-square p{
+    padding: 30px 0;
+}
+.central-square{
+    background-color: rgb(244, 243, 243);
+}
+.square img{
+    width: 50%;
+}
+.box img{
+    filter: invert(1);
+}
+.designit{
+    background-color: rgb(187, 245, 187);
+}
+.asu{
+    background-color:  rgb(106, 0, 0);
+}
+.uf{
+    background-color: rgb(0, 166, 221);
+}
+.topps{
+    background-color: rgb(255, 37, 51);
+}
+.wbr{
+    background-color: rgb(237, 18, 62);
+}
+.hearst{
+    background-color: rgb(184, 216, 249);
+}
+.lonely{
+    background-color: rgb(0, 0, 142);
+}
+.clear{
+    background-color: rgb(255, 224, 50);
+}
+/*section dropbox business*/
 .bg-section-6{
-    background-color: rgb(184, 216, 249);;
+    background-color: rgb(184, 216, 249);
 }
 .section-6{
     max-width: 1000px;
@@ -320,5 +366,5 @@ li{
 }
 .section-6 h2{
     font-size: 30px;
-    color: rgb(121, 0, 0);
+    color: rgb(106, 0, 0);
 }
